@@ -25,7 +25,7 @@ with $Y_i$ being the last bits given and $Z_i$ the Most Significant Bits that we
 
 Let $I$ be the inverse of $2^n \pmod{m}$ (it exists as $m$ is odd). We have :
 
-$X_i*I = Z_i + Y_i*I \pmod{m}$
+$X_i * I = Z_i + Y_i*I \pmod{m}$
 
 Thus, Z_i is lower than Y_i and therefore we are in the first case.
 
