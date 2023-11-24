@@ -30,3 +30,7 @@ $X_i*I = Z_i + Y_i*I \pmod{m}$
 Thus, Z_i is lower than Y_i and therefore we are in the first case.
 
 The first case is better explained in the article, but basically : we can make a matrix of the outputs and using Euclidean Lattices, we can attack the PRNG. This implementation uses LLL, and it's great wrapper in Python that is [fpylll](https://github.com/fplll/fpylll).
+
+## Note
+
+I couldn't test if my MSB code if running, as I added it from a machine that can't run it for the repo to be "complete". I'll gladly modify it in order to make it work if it has any problem.
