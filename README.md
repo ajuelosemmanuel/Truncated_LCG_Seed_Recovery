@@ -19,7 +19,7 @@ For the second case, we use the fact that $m$ is odd. We can find it's inverse, 
 
 For a given $X_i$ and $n$ last bits given, we have :
 
-$X_i = 2^n * Z_i + Y_i \pmod{m}$
+$X_i = 2^n * Z_i + Y_i \pmod{m} $
 
 with $Y_i$ being the last bits given and $Z_i$ the Most Significant Bits that we don't know yet.
 
